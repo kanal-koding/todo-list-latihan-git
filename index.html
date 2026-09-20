@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list latihan git</title>
+    <!-- menghubungkan file css -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <main class="kartu">
+    <h3>Todo List</h3>
+    <form action="" id="form-tugas">
+        <input type="text" id="input-tugas" placeholder="Tulis Tugas Baru" required>
+        <button type="summit">Tambah</button>
+    </form>
+    <ul id="daftar-tugas"></ul>
+</main>
+<script src="app.js"></script>
+
+<!-- id="form-tugas", id="input-tugas", dan id="daftar-tugas" adalah "pegangan" yang nanti dipakai JavaScript untuk menemukan elemen.
+required membuat browser menolak input kosong.
+<ul id="daftar-tugas"></ul> sengaja dibiarkan kosong, karena isinya akan diisi JavaScript.
+<script src="app.js"> diletakkan di akhir body agar semua elemen sudah ada sebelum skrip berjalan. -->
+</body>
+</html>
